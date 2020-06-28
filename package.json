@@ -1,0 +1,14 @@
+{
+  "name": "hello-world_electron",
+  "version": "1.0.0",
+  "description": "a hello-world with electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "gamernitro999-dev",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.5"
+  }
+}
