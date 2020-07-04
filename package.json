@@ -4,11 +4,20 @@
   "description": "a hello-world with electron",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "author": "gamernitro999-dev",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^9.0.5"
+    "electron": "^9.0.5",
+    "electron-builder": "^22.7.0"
+  },
+  "build": {
+    "appId": "gamerdev.hello",
+    "win": {
+      "target": "portable"
+    }
   }
 }
