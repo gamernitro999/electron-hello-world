@@ -11,8 +11,8 @@
   "author": "gamernitro999-dev",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^9.1.0",
-    "electron-builder": "^22.7.0"
+    "electron": "^9.3.4",
+    "electron-builder": "^22.9.1"
   },
   "build": {
     "appId": "gamerdev.hello",
