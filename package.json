@@ -13,6 +13,7 @@
   "devDependencies": {
     "electron": "^9.3.4",
     "electron-builder": "^22.9.1"
+    "ini": ">=1.3.6"
   },
   "build": {
     "appId": "gamerdev.hello",
